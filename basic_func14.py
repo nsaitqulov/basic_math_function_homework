@@ -8,4 +8,7 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return 
+    import math
+    x=math.floor(a/b)
+    return x
+print(main(11, 2))
